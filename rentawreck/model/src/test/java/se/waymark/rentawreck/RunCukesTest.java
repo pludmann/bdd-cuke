@@ -8,5 +8,6 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("se/waymark")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
+@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "html:target/results.html")
 public class RunCukesTest {
 }
